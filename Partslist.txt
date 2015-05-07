@@ -1,0 +1,22 @@
+Partlist
+
+Exported from Moteino.brd at 7/05/2015 10:25 pm
+
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part        Value          Package             Library                    Position (mil)        Orientation
+
+ANALOG                     1X03                SparkFun-Connectors        (1202 976)            R88.7
+BAT1        3.3V           BATTCON_20MM        SparkFun-Electromechanical (642 431)             MR180
+C2          1u             0603-CAP            LowPowerLab                (497 145)             R90
+C3          10u            0805-CAP            LowPowerLab                (765 112)             R90
+C4          0.1            0603-CAP            LowPowerLab                (653 296)             R180
+DIGITAL/PWM                1X03                SparkFun-Connectors        (1202 653)            R90
+I2C                        1X04                SparkFun-Connectors        (123 934)             R90
+IC3         MCP1703CB      SOT23               linear                     (639 111)             R180
+T1          2N2222         TO92-EBC-OVAL       adafruit                   (169.29921 815.70079) R0
+U$1         RFM12B_ANTENNA RFM12B-ANTENNA      LowPowerLab                (183 1452)            R180
+U$5         RFM69          RFM69W-MINPADS      LowPowerLab                (606 1327)            MR0
+U1          ATTINY84-20SSU SOIC127P600X175-14N Atmel                      (651 662)             R180
