@@ -1,22 +1,31 @@
 Partlist
 
-Exported from Moteino.brd at 7/05/2015 10:25 pm
+Exported from TinyRFNode84.brd at 7/08/2015 11:15 pm
 
 EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
 
 Assembly variant: 
 
-Part        Value          Package             Library                    Position (mil)        Orientation
+Part     Value                 Package             Library                    Position (mil)        Orientation
 
-ANALOG                     1X03                SparkFun-Connectors        (1202 976)            R88.7
-BAT1        3.3V           BATTCON_20MM        SparkFun-Electromechanical (642 431)             MR180
-C2          1u             0603-CAP            LowPowerLab                (497 145)             R90
-C3          10u            0805-CAP            LowPowerLab                (765 112)             R90
-C4          0.1            0603-CAP            LowPowerLab                (653 296)             R180
-DIGITAL/PWM                1X03                SparkFun-Connectors        (1202 653)            R90
-I2C                        1X04                SparkFun-Connectors        (123 934)             R90
-IC3         MCP1703CB      SOT23               linear                     (639 111)             R180
-T1          2N2222         TO92-EBC-OVAL       adafruit                   (169.29921 815.70079) R0
-U$1         RFM12B_ANTENNA RFM12B-ANTENNA      LowPowerLab                (183 1452)            R180
-U$5         RFM69          RFM69W-MINPADS      LowPowerLab                (606 1327)            MR0
-U1          ATTINY84-20SSU SOIC127P600X175-14N Atmel                      (651 662)             R180
+BAT1     3.3V                  BATTCON_12MM        SparkFun-Electromechanical (747 511)             R180
+C2       1u                    0603-CAP            LowPowerLab                (1087 603)            MR90
+C3       10u                   0805-CAP            LowPowerLab                (1189 871)            R0
+C4       0.1                   0603-CAP            LowPowerLab                (1183 778)            R0
+D1       RED                   LED-0603            SparkFun-LED               (910 1096)            R0
+D2       GREEN                 LED-0603            SparkFun-LED               (990 1094)            R0
+D3       MBRA140               SMA-DIODE           SparkFun-DiscreteSemi      (1139 328)            R0
+D4       MBRA140               SMA-DIODE           SparkFun-DiscreteSemi      (1035 771)            R270
+IC3      MCP1703CB             SOT23               linear                     (1198 622)            MR180
+ICSP     ICSP                  1X06_NO_SILK        SparkFun-Connectors        (484 1361)            R0
+JP1      M09                   1X09                SparkFun-Connectors        (256 1300)            R270
+JP2      M02PTH                1X02                SparkFun-Connectors        (1202 1123)           R270
+JP3      M02PTH                1X02                SparkFun-Connectors        (261 297)             R90
+Q1       MOSFET-NCHANNELBSS138 SOT23               SparkFun-DiscreteSemi      (430 771)             R180
+R1       220                   0603-RES            SparkFun-Passives          (987 962)             R270
+R2       220                   0603-RES            SparkFun-Passives          (910 959)             R270
+R3       4k7                   0402-RES            SparkFun-Passives          (538 1288)            MR180
+S1       RESET                 TACTILE-SWITCH-SMD  SparkFun-Electromechanical (1164 388)            MR270
+U$1      RFM12B_ANTENNA        RFM12B-ANTENNA      LowPowerLab                (1145 1350)           R270
+U$5      RFM69                 RFM69W-MINPADS      LowPowerLab                (727 808)             MR90
+U1       ATTINY84-20SSU        SOIC127P600X175-14N Atmel                      (706 971)             R180
